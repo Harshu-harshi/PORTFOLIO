@@ -48,7 +48,7 @@
     padding: 0 20px;
     overflow: hidden;
   }
-  
+ 
   #home::before {
     content: '';
     position: absolute;
@@ -750,7 +750,7 @@
   }
 
   .email {
-    text-transform: uppercase;
+    /* text-transform: lowercase; */
     letter-spacing: 1px;
     font-weight: bold;
     color: #44C8F5;
@@ -964,6 +964,17 @@
 
     .contact-value{
       font-size: 10px;
+    }
+    #home {
+      background-size: 100% 65%;
+
+    }
+    .right_container{
+      margin: 0px 25px 50px 0px;
+    }
+    .hero_desc{
+      font-size: 15px;
+      font-weight: 600;
     }
   }
 
